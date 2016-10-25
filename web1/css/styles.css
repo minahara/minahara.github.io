@@ -1,0 +1,58 @@
+/***************/
+/* YOUR STYLES */
+/***************/
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+
+
+/* Color Palette */
+.color-1 {
+    background: #36363E;
+}
+
+.color-2{
+    background: #F0E1BE;
+}
+
+.color-3{
+    background: #AB8853;
+}
+
+
+/* Textures or Patterns*/
+
+.pattern-1{
+    background: url("../img/old_moon.png");
+}
+.pattern-2 {
+    background: url("../img/stardust.png");
+}
+.pattern-3{
+    background: url("../img/shattered.png");
+}
+
+
+
+/* Imagery */
+
+
+/* Icons */
+
+
+/* Navigation */
+
+
+/* Typography */
+
+body{
+    font-size: 2em;
+    padding: 1em;
+    width: 100%;
+}
+h1 {
+    font-family: 'font-family: 'Josefin Slab', serif;'
+}
+
+p {
+    font-family: 'Josefin Slab', serif;
+    color: darkslategrey;
+}
