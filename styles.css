@@ -6,11 +6,11 @@
 
 
 /* Color Palette */
-.color-1 {background: #501B26;}
-.color-2 {background: #363647;}
+.color-1 {background: #FAFBEF;}
+.color-2 {background: #B4A388;}
 .color-3 {background: #B89261;}
-.color-4 {background: #E4D1AF;}
-.color-5 {background: #501B26;}
+.color-4 {background: #501B26;}
+.color-5 {background: #363647;}
 /* Textures or Patterns*/
 .pattern-1 {background: url("../img/old_moon.png");}
 .pattern-2 {background: url("../img/shattered.png");}
@@ -32,7 +32,7 @@ a:visited{color: black;text-decoration: none;}
 a:focus {background: grey;}
 
     /* hover mouse over */
-a:hover {background: grey; margin-left: 10px;}
+a:hover {color: #B89261; margin-left: 10px;}
 
 /*active shows tap and hold*/
 a:active {color: #501B26;}
@@ -44,4 +44,4 @@ h1 {font-family: 'Josefin Slab', serif;
 
 
 p {font-family: 'Josefin Slab', serif;
-    color: #AB8853;}
+    color: #B89261;}
