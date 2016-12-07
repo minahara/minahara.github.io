@@ -1,4 +1,47 @@
-body {
- background: url("../img/stardust.png");
-}
-img{width: 50%}
+/***************/
+/* YOUR STYLES */
+/***************/
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+</style>
+
+
+/* Color Palette */
+.color-1 {background: #FAFBEF;}
+.color-2 {background: #B4A388;}
+.color-3 {background: #B89261;}
+.color-4 {background: #501B26;}
+.color-5 {background: #363647;}
+/* Textures or Patterns*/
+.pattern-1 {background: url("../img/old_moon.png");}
+.pattern-2 {background: url("../img/shattered.png");}
+.pattern-3 {background: url("../img/stardust.png");}
+
+/* Imagery */
+
+
+/* Icons */
+
+
+/* Navigation */
+
+    /* visited */
+a:link,
+a:visited{color: black;text-decoration: none;}
+
+    /* focus (tab thru) */
+a:focus {background: grey;}
+
+    /* hover mouse over */
+a:hover {color: #B89261; margin-left: 10px;}
+
+/*active shows tap and hold*/
+a:active {color: #501B26;}
+
+
+/* Typography */
+h1 {font-family: 'Josefin Slab', serif;
+    color: #363647;}
+
+
+p {font-family: 'Josefin Slab', serif;
+    color: #B89261;}
