@@ -1,0 +1,48 @@
+
+.row {
+      margin: 10px 0;
+      padding: 20px;
+  
+      display: flex;
+      justify-content: space-around;
+}
+.col{
+  margin: 10px;
+  padding: 10px;
+}
+
+.navlink{
+  font-family: 'Josefin Slab', serif;
+  color: #B4A388;
+text-decoration: none;
+font-size: 1.5em;
+font-weight: 700;
+}
+
+main {
+    background: #FAFBEF;
+   
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+
+.profile {
+    width:30%;
+    height:30%;
+    margin-left: 15%;
+    border-radius:6%;
+
+}
+
+h1, h2, p{font-family: 'Josefin Slab', serif;
+color: #363647;
+margin-left: 15%;
+margin-right: 15%;}
+
+a:hover {color:#4d192a;
+  
+transform: scale(1.1);
+  transition: transform .6s;
+}
