@@ -53,14 +53,17 @@ margin-right: 15%;}
 
 
 /*HELP with width and height it wont change for some reason? */
+/*
 .resume{
     width:80%;
     height:80%;
     margin-left: 10%;
+*/
     
 }
 /*HELP space below wont change   assuming its because of the resume issue?*/
-#dlr{
+#dlr {
+    font-family: 'Josefin Slab', serif;
     margin-left: 15%;
     margin-bottom: 10px;
     text-decoration: none;
@@ -109,7 +112,7 @@ transition: background .60s;
 }
 
 /* Layout with Flexbox */
-.gallery {
+figure {
  display: flex;
  flex-flow: row wrap;
 }
