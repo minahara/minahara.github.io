@@ -6,10 +6,13 @@
       display: flex;
       justify-content: space-around;
 }
+
+
 .col{
   margin: 10px;
   padding: 10px;
 }
+
 
 .navlink{
   font-family: 'Josefin Slab', serif;
@@ -18,14 +21,20 @@ text-decoration: none;
 font-size: 1.5em;
 font-weight: 700;
 }
+/* hover over nav links */
+a:hover {color:#4d192a;
+  
+transform: scale(1.1);
+    transition: transform .6s;}
 
 main {
     background: #FAFBEF;
-   
+   padding-top: 20px;
+    padding-bottom: 10px;
     margin-left: 10%;
     margin-right: 10%;
-
 }
+
 
 
 .profile {
@@ -33,16 +42,144 @@ main {
     height:30%;
     margin-left: 15%;
     border-radius:6%;
-
 }
+
 
 h1, h2, p{font-family: 'Josefin Slab', serif;
 color: #363647;
 margin-left: 15%;
 margin-right: 15%;}
 
-a:hover {color:#4d192a;
+
+
+/*HELP with width and height it wont change for some reason? */
+.resume{
+    width:80%;
+    height:80%;
+    margin-left: 10%;
+    
+}
+/*HELP space below wont change   assuming its because of the resume issue?*/
+#dlr{
+    margin-left: 15%;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #b4a388;
+    
+}
+
+
+
+form{
+  background: #FAFBEF;
+  padding:10px;
+}
+
+label,
+input,
+textarea {
+    font-family: 'Josefin Slab', serif;
+        display: block;
+        margin-left: 15%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+
+input[type=submit] 
+{background: #4d192a;
+border:none;
+border-radius: 4px;
+padding:4px;
+color:white;}
+
+input:focus,
+textarea:focus
+{background: #FAFBEF;
+transition: background .60s;
+}
+
+
+
+
+
+/*CLICK THE PIC*/
+
+{
+  box-sizing: border-box;
+}
+
+/* Layout with Flexbox */
+.gallery {
+ display: flex;
+ flex-flow: row wrap;
+}
+
+figure {
+  background: #eee;
+  /* Note: Figures have default 1em margin. Optionally override. */
+  padding: 1em;
+  /* Set `flex-basis` to any value */
+  flex: 1 0 300px;
   
-transform: scale(1.1);
-  transition: transform .6s;
+  /* Child & Also Parent   */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Specific Gallery Styling. Have Fun! */
+figure img {
+    width: 70%;
+    height: 70%;
+    border-radius: 5px;
+}
+.pic1, .pic2, .pic3 {
+display: flex;
+    margin: 10px;
+    width: 20%;
+    height: 20%;
+}
+
+figcaption {
+    font-family:'Josefin Slab', serif; 
+    color: #4d192a;
+  
+}
+
+/* Lightbox Overlay */
+.overlay {
+  display: none;
+  
+/* Overlay Styling   */
+  background:rgba(54,54,71,.75);
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+/* show */
+.overlay:target {
+  display: block;
+    
+ 
+  /* Flexbox Vertical & Horizontal Centering */
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+  justify-content: center;
+  align-items: center;  
+    
+}
+
+/* Close Button  */
+.overlay a {
+  color: #b4a388;
+  text-decoration: none;
+  font-size: 2em;
+    font-family:'Josefin Slab', serif; 
+    margin-top: 10px;
+        margin-bottom: 10px;
 }
